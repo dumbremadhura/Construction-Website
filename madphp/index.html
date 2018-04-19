@@ -1,0 +1,1016 @@
+﻿
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Construction Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--  <link rel="stylesheet" href="parallaxxxw(1).css"> -->
+    <link rel="stylesheet" href="index1nn2.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="stylecontact2.css">
+     <link rel="stylesheet" href="sidenavstyle2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="servicestyle2.css">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body{
+ background:#DCDCDC;
+  color:black;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+
+.container{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+}
+
+.brand{
+  text-align: center;
+}
+
+.brand span{
+  color:#fff;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.company-info{
+  background:#888888;
+}
+
+.company-info h3, .company-info ul{
+  text-align: center;
+  margin:0 0 1rem 0;
+}
+
+.contact{
+  background:#B8B8B8;
+}
+
+/* FORM STYLES */
+.contact form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+
+.contact form label{
+  display:block;
+}
+
+.contact form p{
+  margin:0;
+}
+
+.contact form .full{
+  grid-column: 1 / 3;
+}
+
+.contact form button, .contact form input, .contact form textarea{
+  width:100%;
+  padding:1em;
+  border:1px solid #B8B8B8;
+}
+
+.contact form button{
+  background:#E0E0E0;
+  border:0;
+  text-transform: uppercase;
+}
+
+.contact form button:hover,.contact form button:focus{
+  background:#B0B0B0;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+}
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+}
+
+body{
+  font-family:"Arial", Serif;
+  background-color:none;
+  overflow-x:hidden;
+ 
+}
+
+.navbar{
+    background-color:black;
+  overflow:hidden;
+  height:63px;
+    margin-bottom: 0px;
+  
+    
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color:#ddd;
+  color:white;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:0px;
+  overflow:hidden;
+  width:100%;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /*.open-slide{display:none}*/
+}
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#D8D8D8;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#926239;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+ /* min-height:400px; */
+  /*background:url('showcase.jpg') no-repeat 0 -400px;*/
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+
+  background:#B0B0B0;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+  color:#ffffff
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:33%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#808080;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+ margin: 0px;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+    margin-bottom: 0px;
+  
+    
+    
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url("pra123.jpeg");
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url("c7.jpg");
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url("pra.jpeg");
+  min-height:400px;
+margin-bottom: 0px;    
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+*{
+  margin:0;
+  padding:0;
+margin-top: 0px;    
+}
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:black;
+  line-height:1.6;
+}
+#left{
+width:48%;
+display:block;
+float:left;
+background-color:white;
+margin-right:2%;
+height:500px;
+text-align:center;
+color:grey;
+padding-top:10px;
+border-radius: 25px;
+border:5px solid grey;
+}
+
+#right{
+width:50%;
+display:block;
+float:left;
+background-color:white;
+height:500px;
+text-align:center;
+color:grey;
+padding-top:10px;
+border-radius: 25px;
+border:5px solid grey;
+}
+
+#one{
+
+float:left
+height:150px;
+width:100%;
+margin:0;
+}
+
+#two{
+float:right;
+height:150px;
+width:100%;
+}
+
+#three{
+float:left;
+height:150px;
+width:100%;
+}
+
+.imgcontainer {
+  position: relative;
+  width: 75%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100px;
+  width: 100px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#showcase{
+  background-image:url("c12.jpg");
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+margin-top: 0px;
+    color:#926239;
+}
+
+#showcase h1{
+  font-size:50px;
+  line-height:1.2;
+    color:black;
+}
+
+#showcase p{
+  font-size:20px;
+    color:black;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  border:#926239 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#showcase .button:hover{
+  background:#926239;
+  color:#fff;
+}
+
+#section-a{
+  padding:20px;
+  background:#282e34;
+  color:#fff;
+  text-align:center;
+}
+
+#section-b{
+  padding:20px;
+  background:#f4f4f4;
+  text-align:center;
+}
+
+#section-c{
+  display:flex;
+}
+
+#section-c div{
+  padding:20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background:#926239;
+  color:#fff;
+}
+
+#section-c .box-2{
+  background:#f9f9f9;
+}
+
+#myBtn {
+    display: none; 
+	position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+	border: none;
+    outline: none;
+    background-color: white; 
+    color: black; 
+	cursor: pointer; 
+    padding: 15px; 
+	border-radius: 10px; 
+	
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+ margin: 0px;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+    margin-bottom: 0px;
+  
+    
+    
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url(pra123.jpeg);
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url(c7.jpg);
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url(pra.jpeg);
+  min-height:400px;
+margin-bottom: 0px;    
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+
+
+</style>
+	</head>
+<body>
+   <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg> 
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#showcase">About</a></li>
+      <li><a href="#newsletter">Services</a></li>
+      <li><a href="#contactForm">Contact</a></li>
+	     <li><a href="http://localhost/madphp/login2.php">TENDER</a></li>
+    
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <!-- <a href="http://localhost/madphp/login2.php">Login</a>-->    
+ <a href="http://localhost/madphp/register2.php">Sign Up</a>
+	
+</div>
+
+  <div id="main">
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Cidcom Services
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2>Why Us?</h2>
+    <p>
+      In the modern world, construction usually involves the translation of designs into reality. A formal design team may be assembled to plan the physical proceedings, and to integrate those proceedings with the other parts. The design usually consists of drawings and specifications, usually prepared by a design team including Architect, civil engineers, mechanical engineers, electrical engineers, planning consultants and architectural consultants. The design team is most commonly employed by (i.e. in contract with) the property owner. Under this system, once the design is completed by the design team, a number of construction companies or construction management companies may then be asked to make a bid for the work, either based directly on the design, or on the basis of drawings and a bill of quantities provided by a quantity surveyor. Following evaluation of bids, the owner typically awards a contract to the most cost efficient bidder.
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        “Create with the heart; build with the mind.” 
+         ― Criss Jami
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Our Approach</h2>
+    <p>
+     A new construction company faces a number of challenges. Regardless of whether it offers commercial construction services, new residential construction or general repairs and modifications, a construction company without a service record needs a series of clear goals as it begins to operate. These goals are different from the specific, tangible objectives that a construction business needs, but they are just as important to lasting profitability.One of the first goals a new construction company sets out to achieve needs to be establishing a strong and sustainable internal structure
+    </p>
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border trans">
+        “The real beauty of the building is seen when the right paints touch its walls” 
+― Ernest Yeboah.
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Client Relationships</h2>
+    <p>
+      As a new construction company begins operating, its goals may shift toward developing a body of work and establishing a positive reputation. This goal is important because it moves beyond establishing the business and provides a basis for future work, which can serve as an example for even more-profitable and ambitious projects. A new construction company may need to invest in a model home or extensive packages of plans and images that clients can use to better understand what they're paying for when they contract with the company for a new construction job.
+    </p>
+  </section>
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Request a Service
+      </span>
+    </div>
+        </div>
+    ......
+     
+    <header id="showcase">
+    <h1>Get in touch with Cidcom Group Services</h1>
+    <p>The roads to success are always under construction</p>
+    <a href="#" class="button">About Us</a>
+  </header>
+  <section id="section-a">
+    <div style="width:100%;display:block;height:30px"></div>
+<div class="content">
+  <div id="left">
+  <h3>INTRODUCION</h3>
+  <p style="margin-left:10px;margin-right:10px">       Cidcom is one of the leading construction companies today. We are different from other companies as we provide timely and unique services to our respected clients. Also we see to it that our orders reach our clients on time.
+   We as a construction company strive hard to stand up to the expectations of other companies and if you choose us, we will surely give you the best</p>
+  </div>
+  <div id="right">
+  <h3>PRINCIPLES</h3>
+      <div class="imgcontainer">
+        <div id="one"><img src="truth.jpg" style="width:100px;position: relative;left: -85px; height:100px"><span style="position: absolute;top: 35px;left: 210px">Trust the process!</div><br>
+        <div class="overlay">
+            <div class="text">TRUST</div>
+          </div>
+          
+                    </div>  
+<div class="imgcontainer">
+    <div id="one"><img src="abnegation (3).jpg" style="width:100px;position: relative;left: -80px;height: 100px"><span style="position: absolute;top: 35px;left: 225px">Hold the vision!</div><br>
+        <div class="overlay">
+          <div class="text">VISION</div>
+        </div>
+      </div>
+
+   
+        
+      <div class="imgcontainer">
+        <div id="three"><img src="8770dc954dd8e2c206f16c06b4f6b9e6--cross-stitch-patterns-divergent-symbols.jpg" style="width:100px;position: relative;left: -85px; height:100px"><span style="position: absolute;top: 35px;left: 210px">Expect the results!</div><br>  
+        <div class="overlay">
+          <div class="text">RESULTS</div>
+        </div>  
+      </div>  
+<br><br><br><br><br>
+  
+</div>
+<div id="footer">
+<marquee><img src="footer_element.png" width="100%"></marquee>
+    </div>
+  </section>......
+
+
+  <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="pra4.png">
+          <h3>Reliability</h3>
+          <p> Maintain a win-win environment for all involved; the bank, investor, broker, contractor, and the homeowner.</p>
+        </div>
+        <div class="box">
+          <img src="pra5.png">
+          <h3>Guarantee</h3>
+          <p>Constant improvements in all aspects of home improvement, remodels, renovations</p>
+        </div>
+        <div class="box">
+          <img src="pra6.png">
+          <h3>Power</h3>
+          <p>Growth of our company not only through increased volume but also through technology and efficiency.</p>
+        </div>
+      </div>
+    </section>...
+<div class="container">
+      <h1 class="brand"><span>Constructors</span> of the future</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="company-info">
+        <h3>The Constructors</h3>
+        <ul>
+          <li><i class="fa fa-road"></i> 44 Something st</li>
+          <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+          <li><i class="fa fa-envelope"></i> constructor@gmail.com</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Email Us</h3>
+
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name">
+          </p>
+		  
+        <!--  <p>
+            <label>Company</label>
+            <input type="text" name="company" id="company">
+          </p>
+		-->  
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email">
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone">
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit" >Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+    .......
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;  /* 
+    document.documentElement.scrollTop = 0; */ 
+}  
+</script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+    <footer>
+      <p>The constructors, Copyright &copy; 2017</p>
+        
+        <a href="https://www.facebook.com/"><img src="fb.jpg" align="center" style="bottom: 5px; left: 622px; height:30px; width: 30px"></a>
+        <a href="https://www.instagram.com/accounts/emailsignup/?hl=en"><img src="insta1.jpg" align="center" style="bottom: 5px; left: 652px; height:30px; width: 30px;"></a>
+</div>
+    </footer>
+</body>
+</html>
